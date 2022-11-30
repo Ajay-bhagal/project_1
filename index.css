@@ -1,0 +1,43 @@
+#hd{display: flex;}
+    #button{
+            background-image: url(https://ak1.ostkcdn.com/img/mxc/11272022-HP-A1-INTL-1400x550_DSK-INTL.jpg);
+        }
+    #product1>div{display: flex;}
+    #product1{text-align: center;}
+    #brand{text-align: center;
+    display: grid;
+    grid-template: repeat(3,1fr);}
+    #product2>div{text-align: center;
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+    }
+    #product3>div {display: flex;}
+    #product3>h1{text-align: center;}
+    #product4>div{display: flex;}
+    #product4{text-align: center;}
+    #child4 div{background-color: #f5f6f7;
+    margin: auto;}
+    #child4 h2{margin-top: -4px; margin-bottom: -4px;}
+    #child4 p{justify-content: center;}
+    #product5>div{display: flex;}
+    #product5>h1{text-align: center;}
+    #child5 div{background-color: #f5f6f7;
+    margin: 0px 10px 0px 10px;}
+    #child5 img{width: 100%;}
+    #child5 p{margin: 5px 5px 15px 20px;
+    font-size: large;}
+    #child5 h2{margin: 8px 0px 8px 20px;}
+    #product5 button{border-radius: 5px;
+    background-color: #2f3337;font-size:large; 
+    color:white;
+    padding: 10px 20px 10px 20px;}
+    #product5{width: 100%;
+    margin: auto;}
+    
+    #lasthd{display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;}
+    #lastpart{text-align: center;
+    margin: auto;}
+   #lasthd>div{background-color: #f5f6f7;
+margin:10px 10px 10px 10px;}
