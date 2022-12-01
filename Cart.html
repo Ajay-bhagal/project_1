@@ -1,0 +1,231 @@
+<html>
+    <head>
+        <title>Cart page</title>
+        <style>
+            body{
+                padding: 20px;
+            }
+            *{
+                text-align: left;
+            }
+            #products > div {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: 300px;
+                gap: 15px;
+                border: 0.5px solid rgb(180, 176, 176);
+                padding: 20px;
+            }
+            #products {
+                display: grid;
+                gap: 10px;
+                /* border: 1px dashed blue; */
+            }
+            #parent {
+                display: grid;
+                grid-template-columns: 800px 400px;
+                /* grid-template-rows: 300px; */
+                gap: 20px;
+            }
+            #heading{
+                text-align: left;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20px;
+                color: rgb(128, 123, 123);
+            }
+            h2{
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(128, 123, 123);
+            }
+            img {
+                width: 100%;
+            }
+            .pic_div{
+                border: 0.5px solid rgb(180, 176, 176);
+            }
+            .p_details{
+                display: grid;
+                gap: 30px;
+            }
+            .p_details > div:last-child{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .red {
+                color: crimson;
+            }
+            .mrp {
+                text-decoration: line-through;
+            }
+            select {
+                height: 30px;
+                width: 50px;
+            }
+            .p_qnty {
+                margin-bottom: 2px;
+                padding-left: 15px;
+            }
+            #Price {
+                display: grid;
+                grid-template-rows: 120px 400px ;
+                gap: 10px;
+                /* border: 1px dashed blue; */
+            }
+            #Price > div {
+                padding-left: 10px;
+                padding-right: 10px;
+                /* width: 45%; */
+                border: 0.5px solid rgb(180, 176, 176);
+            }
+            h2 + input {
+                height: 35px;
+                border-radius: 5px;
+                border: 0.5px solid rgb(180, 176, 176);
+            }
+            button{
+                text-align: center;
+                height: 35px;
+                width: 80px;
+                border-radius: 5px;
+                border: 0.5px solid rgb(180, 176, 176);
+                background-color: white;
+            }
+            button:hover{
+                background-color: rgb(248, 245, 245);
+            }
+            /* #Price > div:first-child {
+                height: 120px;
+                margin-bottom: -100px;
+            } */
+            .price_details {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                
+            }
+            #check_out{
+                background-color: rgb(56, 55, 55);
+                color: white;
+                width: 200px;
+            }
+            #check_out:hover {
+                background-color: black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="heading">Shopping Cart</h1>
+        <div id="parent">
+            <div id="products">
+                <div>
+                    <div class="pic_div">
+                        <img 
+                        src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSNk8nTDBCxcThtZowK3fvsHott4PGcvuMyg0B-kfXVK0MQTY2qZJ1VCUGAoNcM728fm5T6KX0mIbWfM5F1LysFtDnk7YblEB2czaMhpk6QDHx1zoqIUAAE" 
+                        alt="" />
+                    </div>
+                    <div class="p_details">
+                        <div>
+                            <p>MEN'S REEBOK SWIM ARUBA FLIP SLIPPERS</p>
+                            <p>
+                                <span class="mrp">₹100</span> <span class="red">25% Savings</span></SPan>
+                            </p>
+                            <h3 class="red">Sale price ₹75</h3>
+                            <p class="p_qnty">qty</p>
+                            <select name="" id="qnty">
+                                <option value="1">1</option>
+                                <option value="1">2</option>
+                                <option value="1">3</option>
+                                <option value="1">4</option>
+                                <option value="1">5</option>
+                            </select>
+                        </div>    
+                        <div>
+                            <div>
+                                <a href="">Remove</a>
+                            </div>
+                            <div>
+                                <a href="">Save For Later</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!--  -->
+                <div>
+                    <div class="pic_div">
+                        <img 
+                        src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSNk8nTDBCxcThtZowK3fvsHott4PGcvuMyg0B-kfXVK0MQTY2qZJ1VCUGAoNcM728fm5T6KX0mIbWfM5F1LysFtDnk7YblEB2czaMhpk6QDHx1zoqIUAAE" 
+                        alt="" />
+                    </div>
+                    <div class="p_details">
+                        <div>
+                            <p>MEN'S REEBOK RUNNING ROADMAP SHOES</p>
+                            <p>
+                                <span class="mrp">₹100</span> <span class="red">25% Savings</span></SPan>
+                            </p>
+                            <h3 class="red">Sale price ₹75</h3>
+                            <p class="p_qnty">qty</p>
+                            <select name="" id="qnty">
+                                <option value="1">1</option>
+                                <option value="1">2</option>
+                                <option value="1">3</option>
+                                <option value="1">4</option>
+                                <option value="1">5</option>
+                            </select>
+                        </div>    
+                        <div>
+                            <div>
+                                <a href="">Remove</a>
+                            </div>
+                            <div>
+                                <a href="">Save For Later</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            <!--  -->
+            </div>
+            <div id="Price">
+                <div>
+                    <h2>Add a Promo Code</h2>
+                    <input type="text" placeholder="Enter promo code">
+                    <button>Apply</button>
+                </div>
+                <div id="price_&_checkout">
+                    <div><p style="text-align:center;">You saved ₹50 today!</p></div>
+                    <div class="price_details">
+                        <div>
+                            <h4>(2)Items:</h4>
+                            <p>Sale Savings:</p>
+                            <h4>Subtotal:</h4>
+                        </div>
+                        <div>
+                            <h4 style="text-align:right;">₹200</h4>
+                            <p class="red" style="text-align:right;">-₹50</p>
+                            <h4 style="text-align:right;">₹150</h4>
+                        </div>                        
+                    </div>
+                    <hr />
+                    <div>
+                        <div class="price_details">
+                            <div>
+                                <p>Shipping:</p>
+                                <h3>Your Total:</h3>
+                            </div>
+                            <div>
+                                <h4 style="text-align:right;">FREE</h4>
+                                <h3 style="text-align:right;">₹150</h3>
+                            </div>
+                        </div>
+                        <div style="padding-left: 24%;">
+                            <button id="check_out">Check Out</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div id="rewards" style="border: 0px;"></div> -->
+            </div>
+        </div>
+    </body>
+    <script>
+        document.getElementById("qnty").selectedIndex = 4;
+    </script>
+</html>

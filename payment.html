@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Payment</title>
+        <link rel="stylesheet" href="payment.css" />
+    </head>
+    <body>
+        <div id="parent">
+            <div id="payment_option">
+                <div>
+                    <hr/>
+                    <h2>Payment Options</h2>
+                    <input type="radio">
+                    <label for="">Cradit/Debit/Overstock Card</label>
+
+                    <div id="card" class="border">
+                        <div>
+                            <input type="text" placeholder="Card Number">
+                        </div>
+
+                        <div id="card_date">
+                            <div>
+                                <div>Exp Month</div>
+                                <div><select name="" id=""></select></div>
+                            </div>
+                            <div>
+                                <div>Exp Month</div>
+                                <div><select name="" id=""></select></div>
+                            </div>
+                            <div>
+                                <input type="number" placeholder="CVV">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div id="price_details">
+                <div>
+                    <div id="promo" class="border">
+                        <h2>Add a Promo Code</h2>
+                        <input type="text" placeholder="Enter promo code" />
+                        <button>Apply</button>
+                    </div>
+
+                    <div id="discount" class="border">
+                        <p >You saved ₹<span>50</span> today!</p>
+                        <div> <!--make the div grid-temp-columns -->
+                            <div>
+                                <h4><span>(2)</span> Items:</h4>
+                                <P>Sale Savings:</P>
+                                <h4>Subtotal:</h4>
+                                <hr/>
+                                <p>Shipping:</p>
+                                <h3>Your Total:</h3>
+                            </div>
+                            <div>
+                                <h4>₹<span>200</span></h4>
+                                <P>-₹<span>50</span></P>
+                                <h4>₹<span>150</span></h4>
+                                <hr/>
+                                <h4>FREE</h4>
+                                <h3>₹<span>150</span></h3>
+                            </div>
+                        </div>
+                        <div id="sbmt_div">
+                            <button id="submit">Submit Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,78 @@
+#parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    /* height: 100%; */
+    /* width: 100%; */
+}
+/* div{
+    border: 1px solid blue;
+} */
+#payment_option > div{
+    /* height: 80%;
+    width: 70%; */
+    margin-top: -300px;
+}
+#payment_option {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#price_details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#price_details > div {
+    /* height: 80%; */
+    /* width: 60%; */
+    gap: 10px;
+    padding-top: 20px;
+}
+#price_details > div > div:first-child {
+    /* height: 30%;
+    width: 80%; */
+    margin: auto;
+    margin-bottom: 20px;
+}
+#price_details > div > div:last-child {
+    /* height: 60%;
+    width: 80%; */
+    margin: auto;
+}
+#price_details > div > div:last-child > div {
+    /* background-color: brown; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#card_date {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.border {
+    border: 0.5px solid rgb(180, 176, 176);
+    padding: 20px;
+    padding-top: 0px;
+    margin-top: 30px;
+}
+#card{
+    padding-top: 15px;
+}
+#discount {
+    padding: 0px;
+    text-align: center;
+}
+#submit {
+    height: 40px;
+    border: 0px;
+    border-radius: 8px;
+    width: 150px;
+    background-color: rgb(56, 55, 55);
+    color: white;
+}
+#sbmt_div {
+    text-align: center;
+    padding-left: 24%;
+    padding-bottom: 15px;
+}
